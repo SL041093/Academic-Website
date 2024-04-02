@@ -54,8 +54,7 @@ sections:
     items:
     - title: Senior Consultant
       company: Ernst & Young (EY)
-      company_logo: org-gc
-      company_url: ""
+      company_url: "https://www.ey.com/en_in"
       location: Bangalore, India
       date_end: "2023-07-07"
       date_start: "2021-08-16"
@@ -71,11 +70,18 @@ sections:
           
     - title: Consultant
       company: Tech Mahindra Ltd.
-      company_logo: org-x
-      company_url: ""
+      company_url: "https://www.techmahindra.com/en-in/?f=1466217297"
       location: Bangalore, India
-      date_end: "2021-08-4"
+      date_end: "2021-08-04"
       date_start: "2018-03-20"
+      description: |2-
+          Responsibilities include:
+
+          * Utilized Multiproviders, Infocubes, DSOs, transformations, and DTPs to fulfill end-user reporting needs, ensuring alignment with organizational objectives.
+          * Created data sources, transfer structures, communication structures, transfer rules, and update rules for infosources, DSO objects, and infocubes, optimizing data flow and integrity.
+          * Implemented process chains to streamline and automate the loading process for master data and transaction data, enhancing operational efficiency.
+          * Proactively addressed tickets/incidents related to data extractions, data load failures, and performance issues, mitigating risks and minimizing disruptions to business operations.
+          * Conducted comprehensive testing and validation of data from source systems against Business Objects reports, ensuring accuracy and reliability of reporting metrics.
 
     title: Experience
   design:
