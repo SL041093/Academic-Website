@@ -52,27 +52,31 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - company: GenCoin
+    - title: Senior Consultant
+      company: Ernst & Young (EY)
       company_logo: org-gc
       company_url: ""
-      date_end: ""
-      date_start: "2021-01-01"
+      location: Bangalore, India
+      date_end: "2023-07-07"
+      date_start: "2021-08-16"
       description: |2-
           Responsibilities include:
 
-          * Analysing
-          * Modelling
-          * Deploying
-      location: California
-      title: CEO
-    - company: University X
+          * Developed Functional Specifications and Technical Specifications for BI components essential to the restructuring of the organization's landscape, ensuring alignment with business objectives.
+          * Maintained regular communication with client leadership to provide updates on project development progress and address any concerns or queries.
+          * Led the implementation of BW Sales data flow for a prominent Fortune 500 company, serving as the primary liaison between clients, onshore management, and development teams throughout the project lifecycle.
+          * Designed and implemented key BI components including ADSOs, DTPs, transformations, open hubs, generic data sources, and Bex queries, tailored to meet specific project requirements.
+          * Leveraged expertise in BW ABAP to develop and optimize field routines, start routines, end routines, and expert routines, enhancing data processing efficiency.
+          * Conducted knowledge transfer sessions to empower support teams with the necessary skills and insights following the successful implementation of projects.
+          
+    - title: Consultant
+      company: Tech Mahindra Ltd.
       company_logo: org-x
       company_url: ""
-      date_end: "2020-12-31"
-      date_start: "2016-01-01"
-      description: Taught electronic engineering and researched semiconductor physics.
-      location: California
-      title: Professor of Semiconductor Physics
+      location: Bangalore, India
+      date_end: "2021-08-4"
+      date_start: "2018-03-20"
+
     title: Experience
   design:
     columns: "2"
