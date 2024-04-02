@@ -20,41 +20,51 @@ organizations:
 role: MS in Engineering Management
 skills:
 - items:
-  - description: ""
-    icon: python
-    icon_pack: fab
-    name: Python
-    percent: 80
-  - description: ""
-    icon: chart-line
-    icon_pack: fas
-    name: Data Science
-    percent: 100
-  - description: ""
+  - description: "I have 5 years of experience working on data extraction, transformation and loading using SAP BW and BW on HANA. I have substantial knowledge on both the 3.x and 7.x BI versions."
     icon: database
     icon_pack: fas
-    name: SQL
-    percent: 40
-  name: Technical
+    name: SAP BW, SAP BW on HANA
+    percent: 100
+  - description: ""
+    name: SAP BW ABAP
+    percent: 80
+  - description: ""
+    name: Statistical Data Analysis
+    percent: 70
+  - description: ""
+    name: R programming
+    percent: 50
+  - description: ""
+    name: Machine Learning in Python
+    percent: 50
+    
+  name: Technologies
 - color: '#eeac02'
   color_border: '#f0bf23'
   items:
   - description: ""
-    icon: person-hiking
-    icon_pack: fas
-    name: Hiking
-    percent: 60
-  - description: ""
-    icon: cat
-    icon_pack: fas
-    name: Cats
+    name: Agile
     percent: 100
   - description: ""
-    icon: camera-retro
-    icon_pack: fas
-    name: Photography
+    name: Lean 
+    percent: 100
+  - description: ""
+    name: Six Sigma
+    percent: 100
+  - description: ""
+    name: Waterfall
+    percent: 100
+  - description: ""
+    name: MINITAB
     percent: 80
-  name: Hobbies
+  - description: ""
+    name: R-Studio
+    percent: 60
+  - description: ""
+    name: Jupyter Notebook
+    percent: 60
+  name: Software tools and methodologies
+
 social:
 - icon: envelope
   icon_pack: fas
@@ -65,8 +75,7 @@ social:
 - icon: cv
   icon_pack: ai
   link: uploads/resume.pdf
-status:
-  icon: ☕️
+  
 superuser: true
 title: Sukanya Lahkar
 ---
