@@ -1,29 +1,23 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-first_name: Shiung Wu
-highlight_name: true
+  - course: MS in Engineering Management
+    institution: San Jose State University
+    year: 2025
+  - course: BE in Computer Science and Engineering
+    institution: Jorhat Engineering College
+    year: 2017
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-last_name: Chien
-name_pronunciation: Chien Shiung Wu
+- Problem-Solving
+- Cross-Functional Collaboration
+- Business Acumen
+- Leadership and Team Management
+- Strategic Planning
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+- name: San Jose State University
+  url: https://www.sjsu.edu/
+role: MS in Engineering Management
 skills:
 - items:
   - description: ""
@@ -65,29 +59,17 @@ social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
-- display:
-    header: true
-  icon: twitter
-  icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/slahkar0410/
 - icon: cv
   icon_pack: ai
   link: uploads/resume.pdf
 status:
   icon: ☕️
 superuser: true
-title: 吳健雄
+title: Sukanya Lahkar
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a current graduate student pursuing a Master's degree in Engineering Management at San Jose State University. I received my BE in Computer Science and Engineering from Jorhat Engineering College.I have five years of experience as a Technology consultant. My interests lie in the dynamic field of management, where I thrive on organizing and executing plans to achieve project goals efficiently. Additionally, I have a passion for technical work and enjoy leveraging my skills to contribute meaningfully to project outcomes. 
 {style="text-align: justify;"}
