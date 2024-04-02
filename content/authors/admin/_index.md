@@ -63,7 +63,7 @@ skills:
   - description: ""
     name: Jupyter Notebook
     percent: 60
-  name: Software tools and methodologies
+  name: Tools and Methodologies
 
 social:
 - icon: envelope
