@@ -48,7 +48,7 @@ sections:
     username: admin
   id: skill
   design:
-    columns: "2"
+    columns: "1"
 - block: experience
   content:
     date_format: Jan 2006
@@ -94,10 +94,10 @@ sections:
     buttons:
     - name: All
       tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
+    - name: Course Projects
+      tag: Course Projects
+    - name: External Projects
+      tag: External Projects
     default_button_index: 0
     filters:
       folders:
@@ -113,33 +113,14 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - certificate_url: https://www.coursera.org
+    - certificate_url: https://www.credly.com/badges/c55bff3a-c172-460a-89d7-502e8951d3c1/public_url
       date_end: ""
-      date_start: "2021-01-25"
+      date_start: "2017-04-09"
       description: ""
-      icon: coursera
-      organization: Coursera
-      organization_url: https://www.coursera.org
-      title: Neural Networks and Deep Learning
-      url: ""
-    - certificate_url: https://www.edx.org
-      date_end: ""
-      date_start: "2021-01-01"
-      description: Formulated informed blockchain models, hypotheses, and use cases.
-      icon: edx
-      organization: edX
-      organization_url: https://www.edx.org
-      title: Blockchain Fundamentals
-      url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    - certificate_url: https://www.datacamp.com
-      date_end: "2020-12-21"
-      date_start: "2020-07-01"
-      description: ""
-      icon: datacamp
-      organization: DataCamp
-      organization_url: https://www.datacamp.com
-      title: Object-Oriented Programming in R
-      url: ""
+      icon: Microsoft
+      organization: Microsoft
+      title: MTA Database Fundamentals
+   
     subtitle: null
     title: Accomplishments
   design:
