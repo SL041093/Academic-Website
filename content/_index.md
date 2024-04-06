@@ -89,25 +89,28 @@ sections:
     columns: "2"
   id: exp
     
+
+#This is where I add projects
 - block: portfolio
   content:
-    buttons:
-    - name: All
-      tag: '*'
-    - name: Course Projects
-      tag: Course Projects
-    - name: External Projects
-      tag: External Projects
-    default_button_index: 0
-    filters:
+#    buttons:
+#      - name: All
+#        tag: '*'
+#      - name: Individual Project
+#        tag: Ops
+#      - name: Group Project
+#        tag: Group
+#    default_button_index: 0
+    filters: 
       folders:
       - project
     title: Projects
   design:
-    columns: "1"
+    columns: "2"
     flip_alt_rows: false
     view: showcase
   id: projects
+
   
 - block: accomplishments
   content:
