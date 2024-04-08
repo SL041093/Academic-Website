@@ -14,10 +14,10 @@ summary: EDA on United Nations 17 Sustainable Development Goals (SDGs)
 #tags:
 #- Deep Learning
 title: A report on Sustainability Development Goals using Exploratory Data Analysis
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+#url_code: ""
+#url_pdf: ""
+#url_slides: ""
+#url_video: ""
 ---
 
 <span style="font-size: medium;">Everything around us has been constantly changing at a very fast rate. The world, as we once knew it, isn't the same. Today the rate of population is very high in comparison to the available amount of resources around us. As such, it has become very important to focus on ways to get the most out of the available resources in the right way, without compromising on the essential needs for the future. This has been made possible by creating 'Sustainable Development' goals - an approach that the United Nations adopted in the year 2015, to focus on reducing and resolving environmental, economic and social issues.</span>  
