@@ -42,6 +42,7 @@ title: Managing the Lean Enterprise Improvement Program
 
 ![](/Code0_251.jpg)
 <span style="font-size: medium;">SIMULATION MODEL DEVELOPMENT</span>  
+  
 <span style="font-size: medium;">In this project, a discrete event simulation model of the ED was constructed based on the available information related to patient flow and the current state VSM derived from Abeidi et al. (2018). The observation rooms, the ultrasound room, the X-ray room, the discharge process area as well as the entrance and exit to the ED were arranged such that the model depicted the actual flow of patients. Patient arrival pattern was exponentially distributed, as per the real data extracted for the ED. The Pert distribution was selected to calculate the processing times for the two observation rooms and the discharge process area; the distribution's minimum value was set equal to the value-added time, while the maximum value was set as the sum of both value and non-value-added time. The mode, or most likely value, was set to be the average of the minimum and maximum values. The processing times for the Ultrasound and X-ray rooms, which lacked non-value-added time, were fixed at 7.36 minutes and 4.29 minutes respectively. The below figure displays the value and non-value-added time for each process in the current state VSM, from Abidi et al.(2018).</span> 
 ![](/Code1_251.jpg)
 <span style="font-size: medium;">The simulation model starts after a patient, arriving in the ED, is classified as Level 2-3 by the triage nurse, based on the urgency of his/her medical situation. The patient is then moved immediately to observation room 1, where his/her vitals are checked by the nurse. At the same time, a doctor starts with the diagnosis process. For accurate diagnosis, the patient is recommended to the Ultrasound and X-ray rooms, respectively. These imaging tests are crucial for life-saving interventions, as they swiftly provide detailed images of the parts of the body. After having completed these two tests, the patient is moved to observation room 2, where he/she receives the imaging test results. Based on the test results, the doctor determines the optimal treatment plan for the patient, along with the necessary medications. Upon receiving the final diagnosis or appropriate treatment, the patient is either referred to another hospital or discharged by the doctor. The patient or his/her family members move to the discharge area next to complete the process. The simulation of the model, for this study, ends at this stage. The below figure provides a snapshot of the simulation model that has been explained above.
@@ -64,4 +65,21 @@ title: Managing the Lean Enterprise Improvement Program
 
 <span style="font-size: medium;">An alternative approach involves reconfiguring the layout or arrangement of processes within the ED to accommodate different types of patients. This strategic adjustment can also address bottlenecks in processes, leading to a reduction in patients' length of stay and the overall improvement of flow. Experimenting with this approach through simulation can be considered as part of future research endeavors.</span>  
 
-<span style="font-size: medium;">Eliminating bottlenecks represents just one of the various options available to the ED for enhancing process efficiency. By concurrently recognizing and minimizing waste, reducing non-value-added activities, instigating changes through continuous improvement initiatives, fostering staff awareness of Lean concepts, and prioritizing customer value, the ED can establish a seamless flow.</span>
+<span style="font-size: medium;">Eliminating bottlenecks represents just one of the various options available to the ED for enhancing process efficiency. By concurrently recognizing and minimizing waste, reducing non-value-added activities, instigating changes through continuous improvement initiatives, fostering staff awareness of Lean concepts, and prioritizing customer value, the ED can establish a seamless flow.</span>  
+  
+**REFERENCES**   
+
+1. Abeidi, N., Turkyilmaz, A., & Uysal, O. (2018, January). A process improvement study in an emergency department using lean methodology. In Proceedings of the International Conference on Industrial Engineering and Operations Management (Vol. 2018, No. JUL, pp. 864-875).  
+
+2. Elamir, H. (2018). Improving patient flow through applying lean concepts to emergency department. Leadership in Health Services, 31(3), 293-309.  
+
+3. Kabirinaeini, M., Jamali, H., & Elahi, Z. (2023). A Framework for Implementing Lean Management in the Hospital Emergency Department. Trends in Medical Sciences, 3(2).  
+
+4. Sánchez, M., Suárez, M., Asenjo, M., & Bragulat, E. (2018). Improvement of emergency department patient flow using lean thinking. International Journal for Quality in Health Care, 30(4), 250-256. https://doi.org/10.1093/intqhc/mzy017   
+
+5. Souza, D. L., Korzenowski, A. L., Alvarado, M. M., Sperafico, J. H., Ackermann, A. E. F., Mareth, T., & Scavarda, A. J. (2021, June). A systematic review on lean applications in emergency departments. In Healthcare (Vol. 9, No. 6, p. 763). MDPI.  
+
+6. Uppal, R., Natale, J., Liszka, A., Wang, S., & Taylor, J. (2012). Process improvement at a newly established emergency department: A Kaizen approach. In IIE Annual Conference. Proceedings (p. 1). Institute of Industrial and Systems Engineers (IISE).  
+
+
+
