@@ -27,32 +27,6 @@ title: Operations Planning and Control
   
 **METHODS AND PROCEDURES**  
 
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hidden Content Demo</title>
-<style>
-  .hidden {
-    display: none;
-  }
-</style>
-</head>
-<body>
-
-<button onclick="toggleContent('FORECASTING')">Show Content 1</button>
-<button onclick="toggleContent('AGGREGATE PLANNING')">Show Content 2</button>
-<button onclick="toggleContent('MATERIALS REQUIREMENT PLANNING(MRP)')">Show Content 3</button>
-<div id="content1" class="hidden">
-  This is content 1.
-</div>
-<div id="content2" class="hidden">
-  This is content 2.
-</div>
-<div id="content3" class="hidden">
-  This is content 3.
-</div>
-
 <script>
   function toggleContent(id) {
     var content = document.getElementById(id);
@@ -64,5 +38,16 @@ title: Operations Planning and Control
   }
 </script>
 
-</body>
-</html>
+<button onclick="toggleContent('FORECASTING')">Show Content 1</button>
+<button onclick="toggleContent('AGGREGATE PLANNING')">Show Content 2</button>
+<button onclick="toggleContent('MATERIALS REQUIREMENT PLANNING(MRP)')">Show Content 3</button> 
+
+<div id="FORECASTING" class="hidden">
+  This is content 1.
+</div>
+<div id="AGGREGATE PLANNING" class="hidden">
+  This is content 2.
+</div>
+<div id="MATERIALS REQUIREMENT PLANNING(MRP)" class="hidden">
+  This is content 3.
+</div>
