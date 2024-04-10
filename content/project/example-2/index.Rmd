@@ -40,26 +40,6 @@ title: Operations Planning and Control
 </head>
 <body>
 
-<button onclick="toggleContent('FORECASTING')">Show Content 1</button>
-<button onclick="toggleContent('AGGREGATE PLANNING')">Show Content 2</button>
-<button onclick="toggleContent('MATERIALS REQUIREMENT PLANNING(MRP)')">Show Content 3</button> 
-<button onclick="toggleContent('MASTER PRODUCTION SCHEDULE(MPS)')">Show Content 4</button>
-<button onclick="toggleContent('CAPACITY REQUIREMENTS PLANNING(CRP)')">Show Content 5</button>
-
-<div id="FORECASTING" class="hidden">
-  This is content 1.
-</div>
-<div id="AGGREGATE PLANNING" class="hidden">
-  This is content 2.
-</div>
-<div id="MATERIALS REQUIREMENT PLANNING(MRP)" class="hidden">
-  This is content 3.
-<div id="MASTER PRODUCTION SCHEDULE(MPS)" class="hidden">
-  This is content 4.
-<div id="CAPACITY REQUIREMENTS PLANNING(CRP)" class="hidden">
-  This is content 5.
-</div>
-
 <script>
 let currentContent = null;
 
@@ -72,6 +52,40 @@ let currentContent = null;
     currentContent = content;
   }
 </script>
+
+<button onclick="toggleContent('FORECASTING')">FORECASTING</button>
+<button onclick="toggleContent('AGGREGATE PLANNING')">AGGREGATE PLANNING</button>
+<button onclick="toggleContent('MATERIALS REQUIREMENT PLANNING(MRP)')">MATERIALS REQUIREMENT PLANNING(MRP)</button> 
+<button onclick="toggleContent('MASTER PRODUCTION SCHEDULE(MPS)')">MASTER PRODUCTION SCHEDULE(MPS)</button>
+<button onclick="toggleContent('CAPACITY REQUIREMENTS PLANNING(CRP)')">CAPACITY REQUIREMENTS PLANNING(CRP)</button>
+
+<div id="FORECASTING" class="hidden">
+<span style="font-size: medium;">The initial objective of the team was to define a plan for forecasting the demand of each product. Each member took on a product and produced a forecast for the following five weeks. To verify the effectiveness of the forecast methodology, our team was required to have a Mean Absolute Deviation (MAD) value of less than ten for each product when applied to the ten most recent weeks. Essentially, the first ten weeks are used to forecast, and the final ten are used to authenticate said forecast. Our team was also asked to research and recommend four new methodologies that could be considered when forecasting for each product.</span>  
+
+<span style="font-size: medium;">FORECASTING USING STANDARD METHODS</span>  
+
+<span style="font-size: medium;">The 20-week historical data of the five products were first analyzed visually using line charts to understand their sales pattern. Products 1, 4 and 5 did not have any seasonality in the data. However, product 1 had a flat trend line, product 4 had an increasing trend line and product 5 had a decreasing trend line. For product 2, we detected a seasonal pattern. Product 3 data also showed clear signs of seasonality with trend. Based on our analysis, we used the appropriate forecasting methods along with smoothing constants to handle the trend and seasonality for each of the products. We used the method of Exponential Smoothing with Trend Adjustment for Products 1, 4 and 5; Exponential Smoothing with Seasonality for Product 2 and Exponential Smoothing with Seasonality and Trend for Product 3. For product 3, it was not possible to forecast for week 25. As the seasonal pattern repeated every 4 weeks, the team assumed that the forecast for week 25 would have similar demand value as week 21.</span>  
+
+<span style="font-size: medium;">ADDITIONAL FORECASTING METHODS</span>  
+
+<span style="font-size: medium;">Apart from the forecasting methods used above to predict future demand, we can also use methods like Facebook’s Prophet model, neural networking models like Long Short-Term Memory Networks (LSTMs), TBATS model or the Fourier Series Expansion. The Prophet model has low error, better prediction, and better fitting (Jha, B. K., & Pande, S.,2021). It can be used to identify and fine-tune the parameters of seasonality or trend to fit the characteristics of our historical sales datasets and provide accurate forecasts for the future periods. TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA errors, Trend and Seasonal components) is designed to handle complex time-series data with multiple seasonality and trend patterns (De Livera, A. M., Hyndman, R. J., & Snyder, R. D.,2011). This model considers different alternative models while working on the given dataset - non seasonal models, with and without Box-Cox transformation, with and without considering Trend, with and without Trend Damping, with ARIMA and without ARMA(p,q) process used to model residuals and also various amount of harmonics used to model seasonal effects. Finally, the official forecasting values are computed using the Akaike Information Criterion (AIC). Thus, TBATS can be considered appropriate for the accurate forecasting of our demand data.</span>
+</div>
+
+<div id="AGGREGATE PLANNING" class="hidden">
+  This is content 2.
+</div>
+
+<div id="MATERIALS REQUIREMENT PLANNING(MRP)" class="hidden">
+  This is content 3.
+</div>
+  
+<div id="MASTER PRODUCTION SCHEDULE(MPS)" class="hidden">
+  This is content 4.
+</div>
+
+<div id="CAPACITY REQUIREMENTS PLANNING(CRP)" class="hidden">
+  This is content 5.
+</div>
 
 </body>
 </html>
