@@ -26,8 +26,7 @@ title: Operations Planning and Control
 <span style="font-size: medium;">This project aims to revolutionize the operational landscape of XYZ Division by conducting a meticulous analysis and strategically restructuring its forecasting and planning processes. By aligning production strategies with forecasted demand and optimizing resource utilization, the project is designed to restore profitability, elevate customer satisfaction, and establish a robust and efficient production framework. We started with forecasting based on the historical data we had. We then created a production strategy for the forecasted five weeks. Our goal was to fulfill customer demand while minimizing overall production expenses. Four plans were created for each product, (including, but not limited to) a level plan and a chase plan. Each strategy’s total cost was calculated, and a suggestion made for each product. Additionally, we also created a Materials Requirements Planning (MRP) record for each product and sub-product based on a provided Bill of Materials (BOM) to satisfy anticipated customer demand. After that was complete, a Master Production Schedule (MPS) was devised for each of the four subproducts to satisfy demand and lead times of all products. By utilizing the MPS constructed for each subproduct, we created a Capacity Requirements Plan (CRP) to determine the quantity of machines required and total cost for the entire plan.</span>  
   
 **METHODS AND PROCEDURES** 
-
-<span style="font-size: medium;">Below are the methods we followed to execute this project. If you click on each button, the information for the following will be displayed:</span>  
+<span style="font-size: medium;">Below are the methods we followed to execute this project. If you click on each button, the information for the following will be displayed:</span>
 <span style="font-size: medium;">Step-1 : Forecasting</span>  
 
 <span style="font-size: medium;">Step-2 : Aggregate Planning</span>  
@@ -76,11 +75,9 @@ let currentContent = null;
 <span style="font-size: medium;">The initial objective of the team was to define a plan for forecasting the demand of each product. Each member took on a product and produced a forecast for the following five weeks. To verify the effectiveness of the forecast methodology, our team was required to have a Mean Absolute Deviation (MAD) value of less than ten for each product when applied to the ten most recent weeks. Essentially, the first ten weeks are used to forecast, and the final ten are used to authenticate said forecast. Our team was also asked to research and recommend four new methodologies that could be considered when forecasting for each product.</span>  
 
 <span style="font-size: medium;">FORECASTING USING STANDARD METHODS</span>  
-
 <span style="font-size: medium;">The 20-week historical data of the five products were first analyzed visually using line charts to understand their sales pattern. Products 1, 4 and 5 did not have any seasonality in the data. However, product 1 had a flat trend line, product 4 had an increasing trend line and product 5 had a decreasing trend line. For product 2, we detected a seasonal pattern. Product 3 data also showed clear signs of seasonality with trend. Based on our analysis, we used the appropriate forecasting methods along with smoothing constants to handle the trend and seasonality for each of the products. We used the method of Exponential Smoothing with Trend Adjustment for Products 1, 4 and 5; Exponential Smoothing with Seasonality for Product 2 and Exponential Smoothing with Seasonality and Trend for Product 3. For product 3, it was not possible to forecast for week 25. As the seasonal pattern repeated every 4 weeks, the team assumed that the forecast for week 25 would have similar demand value as week 21.</span>  
 
 <span style="font-size: medium;">ADDITIONAL FORECASTING METHODS</span>  
-
 <span style="font-size: medium;">Apart from the forecasting methods used above to predict future demand, we can also use methods like Facebook’s Prophet model, neural networking models like Long Short-Term Memory Networks (LSTMs), TBATS model or the Fourier Series Expansion. The Prophet model has low error, better prediction, and better fitting (Jha, B. K., & Pande, S.,2021). It can be used to identify and fine-tune the parameters of seasonality or trend to fit the characteristics of our historical sales datasets and provide accurate forecasts for the future periods. TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA errors, Trend and Seasonal components) is designed to handle complex time-series data with multiple seasonality and trend patterns (De Livera, A. M., Hyndman, R. J., & Snyder, R. D.,2011). This model considers different alternative models while working on the given dataset - non seasonal models, with and without Box-Cox transformation, with and without considering Trend, with and without Trend Damping, with ARIMA and without ARMA(p,q) process used to model residuals and also various amount of harmonics used to model seasonal effects. Finally, the official forecasting values are computed using the Akaike Information Criterion (AIC). Thus, TBATS can be considered appropriate for the accurate forecasting of our demand data.</span>  
   
 <span style="font-size: medium;">RESULTS</span>  
@@ -132,9 +129,18 @@ let currentContent = null;
 
 <span style="font-size: medium;">For the Materials Requirement Planning (MRP), a detailed analysis of the required dependent items for the manufacturing of the five main products was conducted for weeks 21-25. Using the given Bill of Materials (BOM), on-hand inventory prior to week 21, considering the lead times, lot sizes, safety stock, and previously forecasted values as gross requirements, we were able to come up with the timeline for subproduct orders. According to the BOM, the five products required similar subproducts for their manufacture. For example, Products 1, 2 and 4 (Level 0) required subproduct 4. Also, some of the subproducts required another layer of subproducts. For example, subproducts 2 and 3 (Level 1) required subproducts 1 and 4 (Level 2). Thus, for the gross requirements of the sub-products, we considered their total requirements respectively at the lowest level possible, i.e., at Level 2.</span>  
   
-<span style="font-size: medium;">RESULTS</span>
-As none of the five products had scheduled receipts or on-hand inventory, the planned order releases for each week were determined based on their gross requirements. These planned order releases, devoid of any lead times, were evenly distributed from week 21 to 25. Notably, a detailed analysis revealed that for subproducts 1, 4, and 3, whose lead times were one week in advance, the initiation of planned order releases for their orders was required by week 20. For a thorough breakdown of the calculations, please refer to the following figures.</span>  
+<span style="font-size: medium;">RESULTS</span>  
 
+<span style="font-size: medium;">As none of the five products had scheduled receipts or on-hand inventory, the planned order releases for each week were determined based on their gross requirements. These planned order releases, devoid of any lead times, were evenly distributed from week 21 to 25. Notably, a detailed analysis revealed that for subproducts 1, 4, and 3, whose lead times were one week in advance, the initiation of planned order releases for their orders was required by week 20. For a thorough breakdown of the calculations, please refer to the following figures.</span>
+![](/Code13_140.jpg)
+![](/Code14_140.jpg)
+![](/Code15_140.jpg)
+![](/Code16_140.jpg)
+![](/Code17_140.jpg)
+![](/Code18_140.jpg)
+![](/Code19_140.jpg)
+![](/Code20_140.jpg)
+![](/Code21_140.jpg)
 
 </div>
   
@@ -144,7 +150,11 @@ As none of the five products had scheduled receipts or on-hand inventory, the pl
 <span style="font-size: medium;">Following the MRP, the focus shifted to Master Production Scheduling (MPS). We used the planned order releases of each week for the subproducts 1, 2, 3 and 4, obtained from the MRP computations, and integrated it into MPS. The resulting MPS records formed a basis for the subsequent capacity planning phase.</span>
   
 <span style="font-size: medium;">RESULTS</span>  
-According to the Master Production Schedule (MPS) calculations outlined in figure above, the commencement of production for sub-products 1, 3, and 4 is deemed necessary starting from week 20. In the case of sub-product 2, production is slated to begin from week 22. While there exists flexibility to shift the production schedules of subproducts 1, 3, and 4 from week 20 to any week within the range of 21 to 25, such adjustments must be approached cautiously. This is due to potential adverse effects on XYZ Division, which is currently facing a loss of profit. Shifting production schedules might impact customer satisfaction, strain production capacity, and result in excess inventory, unless other aspects of the production plan are correspondingly adjusted.</span>  
+
+<span style="font-size: medium;">According to the Master Production Schedule (MPS) calculations outlined in figure above, the commencement of production for sub-products 1, 3, and 4 is deemed necessary starting from week 20. In the case of sub-product 2, production is slated to begin from week 22. While there exists flexibility to shift the production schedules of subproducts 1, 3, and 4 from week 20 to any week within the range of 21 to 25, such adjustments must be approached cautiously. This is due to potential adverse effects on XYZ Division, which is currently facing a loss of profit. Shifting production schedules might impact customer satisfaction, strain production capacity, and result in excess inventory, unless other aspects of the production plan are correspondingly adjusted.</span> 
+
+<span style="font-size: small;">MPS of sub-products 1,2,3,4</span>
+![](/Code22_140.jpg)
 
 </div>
 
@@ -155,10 +165,43 @@ According to the Master Production Schedule (MPS) calculations outlined in figur
   
 <span style="font-size: medium;">For the cost computations, we applied the chase policy. The team utilized the previous computations of required capacity considering downtime to further determine machines necessary. In addition, we were able to find the total capacity for each week and any undertime/excess capacity. By combining the cost computations with the regular cost of each subproduct, the team was able to construct the total cost of their suggested production plan.</span>   
   
-<span style="font-size: medium;">RESULTS</span>
-<span style="font-size: medium;">Based on the computations carried out for capacity requirements (above figure) and corresponding cost analysis (above figure), even with considering the downtime, it is evident that meeting the production needs for each sub-product weekly with existing machines at each workstation poses a risk of overloading. Hence to make sure the workstations are not overloaded, a necessary number of machines are bought or sold off every week. This allows for a degree of profitability while ensuring capacity is maintained and sub-products produced on time. Nevertheless, there is a trade-off, as this approach incurs penalties for underutilized machine time. </span>  
+<span style="font-size: medium;">RESULTS</span>  
+  
+<span style="font-size: medium;">Below are the calculations carried out for CRP for each subproduct, with downtime considered.</span> 
+![](/Code23_140.jpg)
+![](/Code24_140.jpg)
+![](/Code25_140.jpg)
+![](/Code26_140.jpg)
+<span style="font-size: small;">Cost Computations for 7 workstations</span> 
+![](/Code27_140.jpg)
+![](/Code28_140.jpg)
+![](/Code29_140.jpg)
+![](/Code30_140.jpg)
+![](/Code31_140.jpg)
+![](/Code32_140.jpg) 
+![](/Code33_140.jpg)
+
+<span style="font-size: medium;">Based on the computations carried out for capacity requirements (above figure) and corresponding cost analysis (above figure), even with considering the downtime, it is evident that meeting the production needs for each sub-product weekly with existing machines at each workstation poses a risk of overloading. Hence to make sure the workstations are not overloaded, a necessary number of machines are bought or sold off every week. This allows for a degree of profitability while ensuring capacity is maintained and sub-products produced on time. Nevertheless, there is a trade-off, as this approach incurs penalties for underutilized machine time.</span> 
 
 </div>
 
 </body>
-</html>
+</html>  
+  
+**CONCLUSION AND RECOMMENDATIONS**  
+<span style="font-size: medium;">In conclusion, the project aimed at enhancing the operational efficiency of XYZ Division has yielded valuable insights and recommendations for the Vikings. The forecasting module successfully implemented standard methods, including Exponential Smoothing with Trend Adjustment and Seasonality, ensuring accurate predictions with a Mean Absolute Deviation (MAD) value of less than ten. Alternative models like Facebook’s Prophet and TBATS were also suggested for their adaptability to complex time-series data. In the planning phase, production strategies, encompassing level and chase plans, were devised to balance forecasted demand and minimize costs. The aggregate planning phase explored various scenarios, leading to the selection of an optimal strategy that balanced workforce stability and cost-effectiveness. The subsequent implementation of Materials Requirement Planning (MRP), Master Production Schedule (MPS), and Capacity Requirements Planning (CRP) ensured a streamlined production process in alignment with demand. Based on the methodologies and the data analysis, the following recommendations can be made to The XYZ Division.</span>  
+  
+![](/CodeFT_140.jpg)  
+  
+<span style="font-size: medium;">Following these procedures, it would cost XYZ division a total of 419,950 dollars in terms of production planning as per capacity requirements of MPS units. The aggregate planning for this plan would cost a total of 1,006,295 dollars, considering the short-term plan recommendation, or a total of 1,031,295 dollars, considering the long-term recommendation.</span>  
+  
+<span style="font-size: small;">Total cost of the plan</span>  
+![](/Code34_140.jpg)  
+  
+**REFERENCES**  
+De Livera, A. M., Hyndman, R. J., & Snyder, R. D. (2011). Forecasting time series with complex seasonal patterns using exponential smoothing. Journal of the American statistical association, 106(496), 1513-1527.  
+
+https://doi.org/10.1198/jasa.2011.tm09771
+Jha, B. K., & Pande, S. (2021, April). Time series forecasting model for supermarket sales using FB-prophet. In 2021 5th International Conference on Computing Methodologies and Communication (ICCMC) (pp. 547-554). IEEE.  
+
+R: Documentation https://www.r-project.org/other-docs.html
