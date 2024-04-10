@@ -27,6 +27,19 @@ title: Operations Planning and Control
   
 **METHODS AND PROCEDURES**  
 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hidden Content Demo</title>
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
 <script>
   function toggleContent(id) {
     var content = document.getElementById(id);
@@ -51,3 +64,5 @@ title: Operations Planning and Control
 <div id="MATERIALS REQUIREMENT PLANNING(MRP)" class="hidden">
   This is content 3.
 </div>
+</body>
+</html>
