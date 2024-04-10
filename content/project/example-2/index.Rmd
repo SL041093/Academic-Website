@@ -53,13 +53,15 @@ let currentContent = null;
   }
 </script>
 
-<button onclick="toggleContent('FORECASTING')">FORECASTING</button>
-<button onclick="toggleContent('AGGREGATE PLANNING')">AGGREGATE PLANNING</button>
-<button onclick="toggleContent('MATERIALS REQUIREMENT PLANNING(MRP)')">MATERIALS REQUIREMENT PLANNING(MRP)</button> 
-<button onclick="toggleContent('MASTER PRODUCTION SCHEDULE(MPS)')">MASTER PRODUCTION SCHEDULE(MPS)</button>
-<button onclick="toggleContent('CAPACITY REQUIREMENTS PLANNING(CRP)')">CAPACITY REQUIREMENTS PLANNING(CRP)</button>
+<button onclick="toggleContent('Step-1')">Step-1</button>
+<button onclick="toggleContent('Step-2')">Step-2</button>
+<button onclick="toggleContent('Step-3')">Step-3</button> 
+<button onclick="toggleContent('Step-4')">Step-4</button>
+<button onclick="toggleContent('Step-5')">Step-5</button>
 
-<div id="FORECASTING" class="hidden">
+<div id="Step-1" class="hidden">
+<span style="font-size: medium;">FORECASTING</span>  
+
 <span style="font-size: medium;">The initial objective of the team was to define a plan for forecasting the demand of each product. Each member took on a product and produced a forecast for the following five weeks. To verify the effectiveness of the forecast methodology, our team was required to have a Mean Absolute Deviation (MAD) value of less than ten for each product when applied to the ten most recent weeks. Essentially, the first ten weeks are used to forecast, and the final ten are used to authenticate said forecast. Our team was also asked to research and recommend four new methodologies that could be considered when forecasting for each product.</span>  
 
 <span style="font-size: medium;">FORECASTING USING STANDARD METHODS</span>  
@@ -68,7 +70,11 @@ let currentContent = null;
 
 <span style="font-size: medium;">ADDITIONAL FORECASTING METHODS</span>  
 
-<span style="font-size: medium;">Apart from the forecasting methods used above to predict future demand, we can also use methods like Facebook’s Prophet model, neural networking models like Long Short-Term Memory Networks (LSTMs), TBATS model or the Fourier Series Expansion. The Prophet model has low error, better prediction, and better fitting (Jha, B. K., & Pande, S.,2021). It can be used to identify and fine-tune the parameters of seasonality or trend to fit the characteristics of our historical sales datasets and provide accurate forecasts for the future periods. TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA errors, Trend and Seasonal components) is designed to handle complex time-series data with multiple seasonality and trend patterns (De Livera, A. M., Hyndman, R. J., & Snyder, R. D.,2011). This model considers different alternative models while working on the given dataset - non seasonal models, with and without Box-Cox transformation, with and without considering Trend, with and without Trend Damping, with ARIMA and without ARMA(p,q) process used to model residuals and also various amount of harmonics used to model seasonal effects. Finally, the official forecasting values are computed using the Akaike Information Criterion (AIC). Thus, TBATS can be considered appropriate for the accurate forecasting of our demand data.</span>
+<span style="font-size: medium;">Apart from the forecasting methods used above to predict future demand, we can also use methods like Facebook’s Prophet model, neural networking models like Long Short-Term Memory Networks (LSTMs), TBATS model or the Fourier Series Expansion. The Prophet model has low error, better prediction, and better fitting (Jha, B. K., & Pande, S.,2021). It can be used to identify and fine-tune the parameters of seasonality or trend to fit the characteristics of our historical sales datasets and provide accurate forecasts for the future periods. TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA errors, Trend and Seasonal components) is designed to handle complex time-series data with multiple seasonality and trend patterns (De Livera, A. M., Hyndman, R. J., & Snyder, R. D.,2011). This model considers different alternative models while working on the given dataset - non seasonal models, with and without Box-Cox transformation, with and without considering Trend, with and without Trend Damping, with ARIMA and without ARMA(p,q) process used to model residuals and also various amount of harmonics used to model seasonal effects. Finally, the official forecasting values are computed using the Akaike Information Criterion (AIC). Thus, TBATS can be considered appropriate for the accurate forecasting of our demand data.</span>  
+  
+<span style="font-size: medium;">FORECASTING RESULTS</span>  
+<span style="font-size: medium;">We conducted individual forecasts for each of the five products spanning weeks 20 to 25, employing standard methods. The Mean Absolute Deviation (MAD) for weeks 11-20 was consistently below 6, aligning with Mr. Smith's expectations, which mandated that the forecast, when applied to the last ten weeks, should yield a MAD not exceeding 10. A comprehensive breakdown of the forecast computations is available in the below figures. (Figure A.1 to Figure A.5). To address the limitation of not being able to forecast for week 25 for product 3, we explored the application of the TBATS model, an additional forecasting method, within the R environment. The R code, along with the forecasted values for weeks 21-25 for product 3 using TBATS, is detailed in Figure A.6. This supplementary approach allowed us to enhance the accuracy and completeness of our forecasting process.</span>  
+![](/Code1_140.jpg)
 </div>
 
 <div id="AGGREGATE PLANNING" class="hidden">
