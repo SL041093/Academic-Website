@@ -25,8 +25,7 @@ title: Operations Planning and Control
   
 <span style="font-size: medium;">This project aims to revolutionize the operational landscape of XYZ Division by conducting a meticulous analysis and strategically restructuring its forecasting and planning processes. By aligning production strategies with forecasted demand and optimizing resource utilization, the project is designed to restore profitability, elevate customer satisfaction, and establish a robust and efficient production framework. We started with forecasting based on the historical data we had. We then created a production strategy for the forecasted five weeks. Our goal was to fulfill customer demand while minimizing overall production expenses. Four plans were created for each product, (including, but not limited to) a level plan and a chase plan. Each strategy’s total cost was calculated, and a suggestion made for each product. Additionally, we also created a Materials Requirements Planning (MRP) record for each product and sub-product based on a provided Bill of Materials (BOM) to satisfy anticipated customer demand. After that was complete, a Master Production Schedule (MPS) was devised for each of the four subproducts to satisfy demand and lead times of all products. By utilizing the MPS constructed for each subproduct, we created a Capacity Requirements Plan (CRP) to determine the quantity of machines required and total cost for the entire plan.</span>  
   
-**METHODS AND PROCEDURES**  
-
+**METHODS AND PROCEDURES**   
 <span style="font-size: medium;">Below are the methods we followed to execute this project. If you click on each button, the information for the following will be displayed:</span>  
 
 <span style="font-size: medium;">Step-1 : Forecasting</span>  
@@ -183,9 +182,8 @@ let currentContent = null;
 ![](/Code32_140.jpg) 
 ![](/Code33_140.jpg)
 
-<span style="font-size: medium;">Based on the computations carried out for capacity requirements (above figure) and corresponding cost analysis (above figure), even with considering the downtime, it is evident that meeting the production needs for each sub-product weekly with existing machines at each workstation poses a risk of overloading. Hence to make sure the workstations are not overloaded, a necessary number of machines are bought or sold off every week. This allows for a degree of profitability while ensuring capacity is maintained and sub-products produced on time. Nevertheless, there is a trade-off, as this approach incurs penalties for underutilized machine time.</span> 
-
-</div>
+<span style="font-size: medium;">Based on the computations carried out for capacity requirements (above figure) and corresponding cost analysis (above figure), even with considering the downtime, it is evident that meeting the production needs for each sub-product weekly with existing machines at each workstation poses a risk of overloading. Hence to make sure the workstations are not overloaded, a necessary number of machines are bought or sold off every week. This allows for a degree of profitability while ensuring capacity is maintained and sub-products produced on time. Nevertheless, there is a trade-off, as this approach incurs penalties for underutilized machine time.</span>   
+  
   
 **CONCLUSION AND RECOMMENDATIONS**  
 <span style="font-size: medium;">In conclusion, the project aimed at enhancing the operational efficiency of XYZ Division has yielded valuable insights and recommendations for the Vikings. The forecasting module successfully implemented standard methods, including Exponential Smoothing with Trend Adjustment and Seasonality, ensuring accurate predictions with a Mean Absolute Deviation (MAD) value of less than ten. Alternative models like Facebook’s Prophet and TBATS were also suggested for their adaptability to complex time-series data. In the planning phase, production strategies, encompassing level and chase plans, were devised to balance forecasted demand and minimize costs. The aggregate planning phase explored various scenarios, leading to the selection of an optimal strategy that balanced workforce stability and cost-effectiveness. The subsequent implementation of Materials Requirement Planning (MRP), Master Production Schedule (MPS), and Capacity Requirements Planning (CRP) ensured a streamlined production process in alignment with demand. Based on the methodologies and the data analysis, the following recommendations can be made to The XYZ Division.</span>  
@@ -198,11 +196,12 @@ let currentContent = null;
 **REFERENCES**  
 <span style="font-size: medium;">De Livera, A. M., Hyndman, R. J., & Snyder, R. D. (2011). Forecasting time series with complex seasonal patterns using exponential smoothing. Journal of the American statistical association, 106(496), 1513-1527.</span>  
 
-https://doi.org/10.1198/jasa.2011.tm09771
-<span style="font-size: medium;">Jha, B. K., & Pande, S. (2021, April). Time series forecasting model for supermarket sales using FB-prophet. In 2021 5th International Conference on Computing Methodologies and Communication (ICCMC) (pp. 547-554). IEEE.</span>  
 
-<span style="font-size: medium;">R: Documentation</span> https://www.r-project.org/other-docs.html  
+<span style="font-size: medium;">Jha, B. K., & Pande, S. (2021, April). Time series forecasting model for supermarket sales using FB-prophet. In 2021 5th International Conference on Computing Methodologies and Communication (ICCMC) (pp. 547-554). IEEE. https://doi.org/10.1198/jasa.2011.tm09771 </span>  
 
+<span style="font-size: medium;">R: Documentation https://www.r-project.org/other-docs.html </span> 
+
+</div>
 </body>
 </html>  
      
