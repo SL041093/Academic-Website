@@ -150,8 +150,7 @@ let currentContent = null;
   
 <span style="font-size: medium;">Following the MRP, the focus shifted to Master Production Scheduling (MPS). We used the planned order releases of each week for the subproducts 1, 2, 3 and 4, obtained from the MRP computations, and integrated it into MPS. The resulting MPS records formed a basis for the subsequent capacity planning phase.</span>
   
-<span style="font-size: medium;">RESULTS</span>  
-
+<span style="font-size: medium;">RESULTS</span>    
 <span style="font-size: medium;">According to the Master Production Schedule (MPS) calculations outlined in figure above, the commencement of production for sub-products 1, 3, and 4 is deemed necessary starting from week 20. In the case of sub-product 2, production is slated to begin from week 22. While there exists flexibility to shift the production schedules of subproducts 1, 3, and 4 from week 20 to any week within the range of 21 to 25, such adjustments must be approached cautiously. This is due to potential adverse effects on XYZ Division, which is currently facing a loss of profit. Shifting production schedules might impact customer satisfaction, strain production capacity, and result in excess inventory, unless other aspects of the production plan are correspondingly adjusted.</span> 
 
 <span style="font-size: small;">MPS of sub-products 1,2,3,4</span>
@@ -166,8 +165,7 @@ let currentContent = null;
   
 <span style="font-size: medium;">For the cost computations, we applied the chase policy. The team utilized the previous computations of required capacity considering downtime to further determine machines necessary. In addition, we were able to find the total capacity for each week and any undertime/excess capacity. By combining the cost computations with the regular cost of each subproduct, the team was able to construct the total cost of their suggested production plan.</span>   
   
-<span style="font-size: medium;">RESULTS</span>  
-  
+<span style="font-size: medium;">RESULTS</span>    
 <span style="font-size: medium;">Below are the calculations carried out for CRP for each subproduct, with downtime considered.</span> 
 ![](/Code23_140.jpg)
 ![](/Code24_140.jpg)
