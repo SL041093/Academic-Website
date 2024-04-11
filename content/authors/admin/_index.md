@@ -72,15 +72,17 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/slahkar0410/
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+#  - icon : cv 
+#    icon_pack: ai
+#    link: uploads/resume.pdf
   
 superuser: true
 title: Sukanya Lahkar
 ---
 
-I am a graduate student at San Jose State University, pursuing a Master's degree in Engineering Management. I received my BE in Computer Science and Engineering from Jorhat Engineering College. I have five years of experience as a Technology consultant. My interests lie in the dynamic field of management, where I thrive on organizing and executing plans to achieve project goals efficiently. Additionally, I have a passion for technical work and enjoy leveraging my skills to contribute meaningfully to project outcomes.
+I am a graduate student at San Jose State University, pursuing a Master's degree in Engineering Management. I received my BE in Computer Science and Engineering from Jorhat Engineering College. I have five years of experience as a Technology consultant. My interests lie in the dynamic field of management, where I thrive on organizing and executing plans to achieve project goals efficiently. Additionally, I have a passion for technical work and enjoy leveraging my skills to contribute meaningfully to project outcomes.  
+  
+{{<icon name = "download" pack ="fas">}} Download my {{<staticref "uploads/resume.pdf" "newtab">}} resume {{</staticref>}}.  
 {style="text-align: justify;"}
 
 
