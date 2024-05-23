@@ -10,10 +10,10 @@ image:
 #  name: Github
 #  url: https://twitter.com/georgecushen
 #slides: example
-summary: Evaluating countries' progress and challenges in achieving the United Nations' Sustainable Development Goals.
+summary: Evaluating countries' progress and challenges in achieving the UNs' Sustainable Development Goals.
 #tags:
 #- Deep Learning
-title: Assessing Global Advancement-2023 UN Sustainable Development Goals Analysis
+title: 2023 United Nations' Sustainable Development Goals Analysis
 #url_code: ""
 #url_pdf: ""
 #url_slides: ""
