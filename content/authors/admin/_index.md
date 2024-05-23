@@ -12,8 +12,8 @@ interests:
   - Problem-Solving
   - Cross-Functional Collaboration
   - Business Acumen
-  - Leadership and Team Management
-  - Strategic Planning
+  - Operations Planning and Control
+  - Supply Chain
 organizations:
   - name: San Jose State University
     url: https://www.sjsu.edu/
@@ -80,7 +80,7 @@ superuser: true
 title: Sukanya Lahkar
 ---
 
-I am a graduate student at San Jose State University, pursuing a Master's degree in Engineering Management. I received my BE in Computer Science and Engineering from Jorhat Engineering College. I have five years of experience as a Technology consultant. My interests lie in the dynamic field of management, where I thrive on organizing and executing plans to achieve project goals efficiently. Additionally, I have a passion for technical work and enjoy leveraging my skills to contribute meaningfully to project outcomes.  
+I am a graduate student at San Jose State University, pursuing a Master's degree in Engineering Management. I received my BE in Computer Science and Engineering from Jorhat Engineering College. I have five years of experience as a Technology consultant. My interests lie in the continuously evolving and vibrant field of data analysis and management. I excel in organizing and executing plans to achieve project goals efficiently. Additionally, I have a passion for technical work and enjoy leveraging my skills to contribute meaningfully to project outcomes.  
   
 {{<icon name = "download" pack ="fas">}} Download my {{<staticref "uploads/resume.pdf" "newtab">}} resume {{</staticref>}}.  
 {style="text-align: justify;"}
