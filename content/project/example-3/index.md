@@ -32,7 +32,7 @@ title: Leveraging Machine Learning to Enhance Online Shopping Experiences
  
 **SUPERVISED LEARNING**  
 <span style="font-size: medium;">1. Algorithms used: Logistic Regression, Decision Tree, Random Forest, and Support Vector Machine (SVM).  
-2. Performance Metrics: Accuracy, precision, recall, F1-score, and AUC-ROC. 
+2. Performance Metrics: Accuracy, precision, recall, F1-score, and AUC-ROC.  
 3. Class Imbalance Handling: Oversampling was used to balance the dataset, with each class containing an equal number of observations.  
 4. Analysis and Findings: Random Forest achieved the highest accuracy (96.46%) as well as F1-score (96.58%) and exhibited strong performance in predicting customer purchase intentions. Logistic Regression and SVM showed moderate performance with potential risks of overfitting. Decision Tree had high accuracy but a slight risk of overfitting due to its performance characteristics.</span> 
   
@@ -40,12 +40,12 @@ title: Leveraging Machine Learning to Enhance Online Shopping Experiences
 <span style="font-size: medium;">1. Clustering: K-means clustering was applied to uncover underlying groups within the data, using the Elbow method to determine the optimal number of clusters. The plot suggested that the inertia decreased significantly up to k=3 and then the rate of decrease slowed down. Therefore, k=3 was chosen as the optimal number of clusters for this dataset.  
 2. Cluster Analysis: By applying K-means clustering with 3 clusters,  the dataset was basically divided into three groups. Cluster 0 represented new visitors with longer engagement on administrative pages and moderate product-related interactions. Cluster 1 represented returning visitors with shorter sessions and higher bounce rates, indicating poor engagement. Cluster 2 represented returning visitors with high engagement in product-related pages and low exit rates.</span>   
   
-**INSIGHTS**
+**INSIGHTS**  
 <span style="font-size: medium;">1. Visitors engaging more with product-related content are more likely to convert.  
 2. High bounce and exit rates correlate with lower conversion rates.  
 3. Personalized recommendations and targeted promotions can enhance customer engagement and sales.</span>
 
-<span style="font-size: medium;">The project demonstrates the efficacy of using ML to predict online shopper behavior and enhance customer experiences. The Random Forest classifier proved to be the best model for predicting purchase intentions, while clustering provided valuable insights into visitor segmentation. These insights can help businesses tailor their marketing strategies, improve website design, and increase conversion rates.  
+<span style="font-size: medium;">The Random Forest classifier proved to be the best model for predicting purchase intentions, while clustering provided valuable insights into visitor segmentation. These insights can help businesses tailor their marketing strategies, improve website design, and increase conversion rates.  
 Click on the below button to get an overview of the code and the outputs generated.</span>
 <html lang="en">
 <head>
@@ -112,9 +112,9 @@ let currentContent = null;
 </html> 
 
 **REFERENCES**  
-1. [Online Shoppers Purchasing Intention Dataset](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset)
-2. [Sakar,C. and Kastro,Yomi. (2018). Online Shoppers Purchasing Intention Dataset. UCI Machine Learning Repository](https://doi.org/10.24432/C5F88Q)
-3. [Ensuring Data Quality in Machine Learning](https://medium.com/@khotijahs1/ensuring-data-quality-in-machine-learning-best-practices-and-python-code-example-809f46cf5bcb)
+<span style="font-size: medium;">1. [Online Shoppers Purchasing Intention Dataset](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset)  
+2. [Sakar,C. and Kastro,Yomi. (2018). Online Shoppers Purchasing Intention Dataset. UCI Machine Learning Repository](https://doi.org/10.24432/C5F88Q)  
+3. [Ensuring Data Quality in Machine Learning](https://medium.com/@khotijahs1/ensuring-data-quality-in-machine-learning-best-practices-and-python-code-example-809f46cf5bcb)</span>
 
 
 
