@@ -53,6 +53,18 @@ sections:
   content:
     date_format: Jan 2006
     items:
+    - title: Instructional Student Assistant
+      company: San Jose State University
+      company_url: "https://www.sjsu.edu/"
+      location: San Jose, California
+      date_start: "2024-09-09"
+      description: |2-
+          Responsibilities include:
+          
+          * Teaching assistant for "Engineering Probability and Statistics".
+          * Grading student assignments, exams and projects, delivering feedback to aid in their academic development.
+          * Managing course-related administrative tasks, maintaining records, supporting faculty research with data collection and literature reviews, and addressing student inquiries during office hours.
+          
     - title: Senior Consultant
       company: Ernst & Young (EY)
       company_url: "https://www.ey.com/en_in"
@@ -62,12 +74,11 @@ sections:
       description: |2-
           Responsibilities include:
 
-          * Developed Functional Specifications and Technical Specifications for BI components essential to the restructuring of the organization's landscape, ensuring alignment with business objectives.
-          * Maintained regular communication with client leadership to provide updates on project development progress and address any concerns or queries.
-          * Led the implementation of BW Sales data flow for a prominent Fortune 500 company, serving as the primary liaison between clients, onshore management, and development teams throughout the project lifecycle.
-          * Designed and implemented key BI components including ADSOs, DTPs, transformations, open hubs, generic data sources, and Bex queries, tailored to meet specific project requirements.
-          * Leveraged expertise in BW ABAP to develop and optimize field routines, start routines, end routines, and expert routines, enhancing data processing efficiency.
-          * Conducted knowledge transfer sessions to empower support teams with the necessary skills and insights following the successful implementation of projects.
+          * Optimized data processing efficiency through the design and implementation of key SAP BI components and data flows.
+          * Integrated multiple data sources to create a unified view, improving business operations and enhancing data integrity and reliability.
+          * Conducted knowledge transfer sessions to  equip support teams with the necessary skills and insights. 
+          * Provided extensive support during the hyper-care phase after successful GO-LIVE, ensuring a smooth transition.
+          * Leveraged agile methodology resulting in faster delivery of BI solutions.
           
     - title: Consultant
       company: Tech Mahindra Ltd.
@@ -78,13 +89,12 @@ sections:
       description: |2-
           Responsibilities include:
 
-          * Utilized Multiproviders, Infocubes, DSOs, transformations, and DTPs to fulfill end-user reporting needs, ensuring alignment with organizational objectives.
-          * Created data sources, transfer structures, communication structures, transfer rules, and update rules for infosources, DSO objects, and infocubes, optimizing data flow and integrity.
-          * Implemented process chains to streamline and automate the loading process for master data and transaction data, enhancing operational efficiency.
+          * Performed data quality checks and validation to ensure accurate data reporting for business intelligence solutions.
+          * Supported the implementation of data warehousing strategies to optimize data storage and retrieval, streamlining data integration and accessibility.
+          * Contributed to the development and maintenance of BI dashboards, enhancing data visibility.
           * Proactively addressed tickets/incidents related to data extractions, data load failures, and performance issues, mitigating risks and minimizing disruptions to business operations.
-          * Conducted comprehensive testing and validation of data from source systems against Business Objects reports, ensuring accuracy and reliability of reporting metrics.
           
-    title: Experience
+    title: Professional Experience
   design:
     columns: "2"
   id: exp
@@ -123,6 +133,12 @@ sections:
       icon: Microsoft
       organization: Microsoft
       title: MTA Database Fundamentals
+      
+    - certificate_url: ""
+      date_end: ""
+      date_start: "2024-05-27"
+      organization: San Jose State University
+      title: Lean Six Sigma Green Belt Badge
    
     subtitle: null
     title: Accomplishments
