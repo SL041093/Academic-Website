@@ -20,29 +20,6 @@ organizations:
     url: https://www.sjsu.edu/
 role: MS in Engineering Management
 
-skills:
-  - icon: "overleaf"
-    icon_pack: ai
-    name: Data Warehousing
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-        name: SAP BW, BW on HANA modeling
-        name: BW/4HANA
-        name: SAP HANA
-        name: Snowflake
-  - name: Data Visualization
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - description: ""
-        name: Tableau
-      - description: ""
-        name: Microsoft Power BI 
-      - description: ""
-        name: Six Sigma
-        percent: 100
-
 social:
   - icon: envelope
     icon_pack: fas
