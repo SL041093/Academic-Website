@@ -20,6 +20,12 @@ organizations:
     url: https://www.sjsu.edu/
 role: MS in Engineering Management
 
+skills:
+  - name: Python
+    level: Expert
+  - name: SQL
+    level: Expert
+
 social:
   - icon: envelope
     icon_pack: fas

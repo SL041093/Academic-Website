@@ -47,15 +47,9 @@ sections:
     text: ""
     title: Skills
     username: admin
-    skills:
-      - name: SAP BW, BW on HANA modeling
-      - name: BW/4HANA
-      - name: SAP HANA
   id: skill
   design:
     columns: "2"
-    
-    
     
 - block: experience
   content:
