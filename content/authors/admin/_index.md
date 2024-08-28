@@ -22,14 +22,16 @@ role: MS in Engineering Management
 
 skills:
   - name: Data Warehousing
-  - description: ''
+    description: ''
     icon: database
     icon_pack: fab
-    name: SAP BW, BW on HANA modeling
-  - description: ''
-    name: BW/4HANA
-  - description: ''
-    name: SAP HANA
+    skills:
+  - name: SAP BW, BW on HANA modeling
+    description: ''
+  - name: BW/4HANA
+    description: ''
+  - name: SAP HANA
+    description: ''
 
 social:
   - icon: envelope
