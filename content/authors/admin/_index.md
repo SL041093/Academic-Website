@@ -19,9 +19,11 @@ organizations:
   - name: San Jose State University
     url: https://www.sjsu.edu/
 role: MS in Engineering Management
+
 skills:
-  - name: Data Warehousing
-    icon_pack: ''
+  - icon: "overleaf"
+    icon_pack: ai
+    name: Data Warehousing
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
@@ -40,18 +42,7 @@ skills:
       - description: ""
         name: Six Sigma
         percent: 100
-      - description: ""
-        name: Waterfall
-        percent: 100
-      - description: ""
-        name: MINITAB
-        percent: 80
-      - description: ""
-        name: R-Studio
-        percent: 60
-      - description: ""
-        name: Jupyter Notebook
-        percent: 60
+
 social:
   - icon: envelope
     icon_pack: fas
