@@ -41,14 +41,22 @@ sections:
     title: Biography
     username: admin
   id: about
+  
 - block: skills
   content:
     text: ""
     title: Skills
     username: admin
+    skills:
+      - name: SAP BW, BW on HANA modeling
+      - name: BW/4HANA
+      - name: SAP HANA
   id: skill
   design:
-    columns: "1"
+    columns: "2"
+    
+    
+    
 - block: experience
   content:
     date_format: Jan 2006

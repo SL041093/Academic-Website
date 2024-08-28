@@ -20,12 +20,6 @@ organizations:
     url: https://www.sjsu.edu/
 role: MS in Engineering Management
 
-
-skills:
-  - SQL
-  - Machine Learning
-
-
 social:
   - icon: envelope
     icon_pack: fas
