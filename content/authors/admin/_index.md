@@ -21,15 +21,10 @@ organizations:
 role: MS in Engineering Management
 
 skills:
-  categories:
-    - name: Data Warehousing
-      skills:
-        - name: SAP BW, BW on HANA modeling
-        - name: BW/4HANA
-    - name: Data Visualization
-      skills: 
-        - name: Tableau
-  
+  - description: '6 YEARS'
+    icon: database
+    icon_pack: fab
+    name: SAP BW
 
 social:
   - icon: envelope
