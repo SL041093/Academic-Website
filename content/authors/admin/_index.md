@@ -22,19 +22,9 @@ role: MS in Engineering Management
 
 
 skills:
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  - SQL
+  - Machine Learning
 
-<span style="background-color: #4CAF50; color: white; padding: 5px 10px; border-radius: 5px;">Data Engineering</span>
-
-<span style="background-color: #2196F3; color: white; padding: 5px 10px; border-radius: 5px;">Python</span>
-
-<span style="background-color: #FFC107; color: white; padding: 5px 10px; border-radius: 5px;">R</span>
-
-<span style="background-color: #FF5722; color: white; padding: 5px 10px; border-radius: 5px;">SQL</span>
-
-<span style="background-color: #9C27B0; color: white; padding: 5px 10px; border-radius: 5px;">Machine Learning</span>
-
-</div>
 
 social:
   - icon: envelope
