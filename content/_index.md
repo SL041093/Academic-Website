@@ -47,19 +47,9 @@ sections:
     text: ""
     title: Skills
     username: admin
-    categories:
-      - name: Programming Languages
-        color: "#4CAF50"
-        skills:
-          - name: C
-            level: Advanced
-          - name: C++
-            level: Advanced
-          - name: Java
-            level: Intermediate
   id: skill
   design:
-    columns: "1"
+    columns: "2"
     
 - block: experience
   content:
