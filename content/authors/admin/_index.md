@@ -21,33 +21,44 @@ organizations:
 role: MS in Engineering Management
 
 skills:
-  - name: SAP BW, BW on HANA modeling
-    description: ''
-    icon: database
-    icon_pack: fab
-    skills:
-  - name: BW/4HANA
-    description: ''
-  - name: SAP HANA
-    description: ''
-  - name: Snowflake
-    description: ''
-  - name: Microsoft Power BI
-    description: ''
-  - name: Tableau
-    description: ''
-  - name: SQL
-    description: ''
-  - name: MS Excel
-    description: ''
-  - name: R
-    description: ''
-  - name: Machine Learning in Python(scikit-learn)
-    description: ''
-  - name: Statistical Analysis
-    description: ''
-  - name: Lean Six Sigma
-    description: ''
+    - name: Data Warehousing
+      items:
+      - name: SAP BW, BW on HANA
+        description: ''
+      - name: BW/4HANA
+        description: ''
+      - name: SAP HANA
+        description: ''
+      - name: Snowflake
+        description: ''
+    - name: Data Visualization
+      items:
+      - name: Tableau
+        description: ''
+      - name: Microsoft Power BI
+        description: ''
+    - name: Data Analysis
+      items:
+      - name: SQL
+        description: ''
+      - name: R
+        description: ''
+      - name: Machine Learning in Python(scikit-learn)
+        description: ''
+      - name: Statistics
+        description: ''
+      - name: MS Excel
+        description: ''
+    - name: Other Methodologies
+      items:
+      - name: Agile
+        description: ''
+      - name: Continuous Improvement
+        description: ''
+      - name: Project Management
+        description: ''
+      - name: Lean Six Sigma
+        description: ''
 
 social:
   - icon: envelope

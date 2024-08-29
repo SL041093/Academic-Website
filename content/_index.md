@@ -50,6 +50,7 @@ sections:
   id: skill
   design:
     columns: "2"
+
     
 - block: experience
   content:
