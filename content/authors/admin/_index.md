@@ -14,7 +14,7 @@ interests:
   - Statistical Analysis
   - Business Intelligence
   - Technology trends in BI
-  - Machine Learning for predictive modeling
+  - Machine Learning
 organizations:
   - name: San Jose State University
     url: https://www.sjsu.edu/
@@ -25,11 +25,7 @@ skills:
       items:
       - name: SAP BW, BW on HANA
         description: ''
-      - name: BW/4HANA
-        description: ''
-      - name: SAP HANA
-        description: ''
-      - name: Snowflake
+      - name: AWS Cloud
         description: ''
     - name: Data Visualization
       items:
@@ -45,15 +41,13 @@ skills:
         description: ''
       - name: Machine Learning in Python(scikit-learn)
         description: ''
-      - name: Statistics
+      - name: Descriptive and Inferential Statistics
         description: ''
-      - name: MS Excel
-        description: ''
-    - name: Other Methodologies
+    - name: Others
       items:
-      - name: Agile
+      - name: Data Ethics in AI and ML
         description: ''
-      - name: Continuous Improvement
+      - name: Continuous Process Improvement
         description: ''
       - name: Project Management
         description: ''
