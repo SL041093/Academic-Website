@@ -1,9 +1,9 @@
 ---
 date: "2023-12-04T00:00:00Z"
 external_link: ""
-image:
-  caption: Photo by FrancescoGallarouti on Unsplash
-  focal_point: Smart
+#image:
+#  caption: Photo by FrancescoGallarouti on Unsplash
+#  focal_point: Smart
 #links:
 #- icon: github
 #  icon_pack: fab
