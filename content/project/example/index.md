@@ -1,9 +1,9 @@
 ---
 date: "2023-12-04T00:00:00Z"
 external_link: ""
-#image:
+image:
 #  caption: Photo by FrancescoGallarouti on Unsplash
-#  focal_point: Smart
+  focal_point: Smart
 #links:
 #- icon: github
 #  icon_pack: fab
@@ -13,7 +13,7 @@ external_link: ""
 summary: Evaluating countries' progress and challenges in achieving the UNs' Sustainable Development Goals.
 #tags:
 #- Deep Learning
-title: 2023 United Nations' Sustainable Development Goals Analysis
+title: United Nations' Sustainable Development Goals Analysis
 #url_code: ""
 #url_pdf: ""
 #url_slides: ""
