@@ -1,9 +1,9 @@
 ---
 date: "2023-11-30T00:00:00Z"
 external_link: ""
-image:
-  caption: Photo by Scott-Graham on Unsplash
-  focal_point: Smart
+#image:
+#  caption: Photo by Scott-Graham on Unsplash
+#  focal_point: Smart
 #links:
 #- icon: github
 #  icon_pack: fab
