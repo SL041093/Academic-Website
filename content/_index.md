@@ -119,7 +119,7 @@ sections:
       - project
     title: Projects
   design:
-    columns: "2"
+    columns: "1"
     flip_alt_rows: false
     view: showcase
   id: projects
