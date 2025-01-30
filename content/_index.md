@@ -117,7 +117,7 @@ sections:
     filters: 
       folders:
       - project
-    title: Projects
+    title: My Projects
   design:
     columns: "2"
     flip_alt_rows: false
