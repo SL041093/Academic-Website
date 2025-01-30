@@ -37,13 +37,13 @@ title: United Nations' Sustainable Development Goals Analysis
 <span style="font-size: medium;"> 2. Identify factors contributing to high or low sustainability performance. </span>  
 <span style="font-size: medium;"> 3. Use PCA to reduce dimensionality and identify key components influencing SDG scores.</span>  
 
-**Ideation & Solution Exploration**
+**Ideation & Solution Exploration**  
 <span style="font-size: medium;"> 1. Boxplots revealed variations in SDG scores across regions. </span>  
 <span style="font-size: medium;"> 2. Bar charts highlighted top (Finland, Norway, Denmark) and bottom (e.g., South Sudan) countries based on SDG progress. </span>  
 <span style="font-size: medium;"> 3. Economic goals were analyzed to pinpoint disparities between top and bottom-performing nations. </span>  
 <span style="font-size: medium;"> 4. PCA was performed to reduce 17 SDG variables to six principal components, retaining 83% of variance, aiding in pattern identification. </span>  
 
-**Implementation & Outcome**
+**Implementation & Outcome**  
 <span style="font-size: medium;"> The study identified which SDGs significantly differentiate high and low-performing countries. Below are the visualizations generated as part of the exploratory data analysis. For more details on this project, please click on the Github link at the top of this page.</span>  
 ![](/Code5_201.jpg)
 ![](/Code6_201.jpg)
