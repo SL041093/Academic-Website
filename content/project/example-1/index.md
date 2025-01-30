@@ -13,7 +13,7 @@ links:
 summary: Implementation of Lean methodologies in the Emergency Department of a hospital
 #tags:
 #- Deep Learning
-title: Managing the Lean Enterprise Improvement Program
+title: Lean Six Sigma in Healthcare
 #url_code: ""
 #url_pdf: ""
 #url_slides: ""
@@ -51,7 +51,6 @@ title: Managing the Lean Enterprise Improvement Program
 
 <span style="font-size: medium;">Therefore, upon comparison, each of the above three scenarios significantly decreased the average flow time for patients in the ED, along with a notable reduction in the average waiting time in the queue for the first observation room. The application of these scenarios within the current state model—whether it involves augmenting the capacity of the first observation room, eliminating all non-value-added activities, or a combination of both—has the potential to enhance patient flow, service quality, and overall performance in the ED. Significantly, these changes can lead to a substantial reduction in the prolonged length of stay for patients in the ED. Below figures lists the model input parameters and provides the corresponding simulation result values, of the current state model as well as the three scenarios that have been considered to tackle the bottleneck.</span>  
 ![](/Code3_251.jpg)  
-
 **LIMITATIONS**  
 <span style="font-size: medium;">While this project was based on prior research work, it does have certain limitations. The simulation model was created under the assumption that it accurately represented the real-world system without significant statistical differences. The duration for patients to travel from the emergency entrance to the first observation room and from the discharge area to the ED exit was assumed to be zero due to the absence of real-world data. Consequently, for these two routes, connectors were utilized in the SIMIO model instead of time-paths. Additionally, this study was constrained by the absence of verification, validation, and the actual implementation of the optimal solution obtained from the three scenarios, to address the bottleneck issue in the Turkey hospital's ED. Implications related to the elimination of non-value-added activities across all ED processes and the financial consequences of increasing resources were not considered as well.</span>  
   
