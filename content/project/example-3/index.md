@@ -1,5 +1,5 @@
 ---
-date: "2024-12-09T00:00:00Z"
+date: "2024-05-15T00:00:00Z"
 external_link: ""
 image:
 #  caption: Photo by FrancescoGallarouti on Unsplash
@@ -43,6 +43,8 @@ title: Online Purchasing Characteristics
 <span style="font-size: medium;"> To address the problem, multiple machine learning algorithms are tested. Supervised learning models are trained on the balanced dataset, and the performance of each model is evaluated using cross-validation scores to assess the risk of overfitting. Random Forest emerges as the top-performing model, exhibiting high accuracy and stability. Unsupervised learning is also explored to group visitors based on browsing patterns and session duration, uncovering hidden segments that can inform marketing and product strategies. </span>  
 
 **Implementation & Outcome**  
-<span style="font-size: medium;"> The implementation involves training machine learning models on a balanced dataset and performing feature selection to identify the most impactful variables. The Random Forest classifier outperforms other models in terms of predictive accuracy, recall, precision, and F1-score. When evaluated on the original imbalanced dataset, the model achieves an overall accuracy of 99%, accurately classifying both revenue and non-revenue sessions. Unsupervised learning techniques are applied to identify groups of users with similar browsing patterns, providing insights into user engagement that can help optimize the shopping experience. The project concludes by confirming that Random Forest is the best model for predicting shopper behavior and improving online revenue generation. For more details on this project, please click on the Github link at the top of this page.</span>  
+<span style="font-size: medium;"> The implementation involves training machine learning models on a balanced dataset and performing feature selection to identify the most impactful variables. The Random Forest classifier outperforms other models in terms of predictive accuracy, recall, precision, and F1-score. When evaluated on the original imbalanced dataset, the model achieves an overall accuracy of 99%, accurately classifying both revenue and non-revenue sessions. Unsupervised learning techniques are applied to identify groups of users with similar browsing patterns, providing insights into user engagement that can help optimize the shopping experience. The project concludes by confirming that Random Forest is the best model for predicting shopper behavior and improving online revenue generation. </span>  
+  
+**For more details on this project, please click on the Github link at the top of this page.**  
 
 

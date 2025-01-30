@@ -49,6 +49,7 @@ title: Differentially Private Machine Learning
 <span style="font-size: medium;"> 1. Single vs. Multiple Noise Additions: Adding noise once resulted in higher model accuracy (76.56% vs. 72.23%), precision (77.31% vs. 72.85%), and recall (76.56% vs. 72.23%), demonstrating the adverse effects of cumulative noise. </span>  
 <span style="font-size: medium;"> 2. Global Sensitivity Reduction: Lower sensitivity models (Linear SVM) required less noise and achieved better performance than higher sensitivity models (Kernel SVM), confirming that reducing global sensitivity preserves data utility. </span>  
 <span style="font-size: medium;"> 3. Privacy Cost vs. Sample Randomness: When privacy noise was smaller than sample randomness, model performance remained stable (accuracy: 78.35%). However, excessive privacy noise (ϵ=0.5) significantly reduced accuracy (70.73%), emphasizing the importance of balanced privacy budgets. </span>  
-<span style="font-size: medium;"> For more details on this project, please click on the Github link at the top of this page.</span>  
+  
+**For more details on this project, please click on the Github link at the top of this page.** 
 
 
