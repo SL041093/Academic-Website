@@ -157,12 +157,12 @@ sections:
       country_code: US
     autolink: true
     email: lahkar.sukanya4@gmail.com
-    form:
-      formspree:
-        id: null
-      netlify:
-        captcha: false
-      provider: netlify
+#    form:
+#      formspree:
+#        id: null
+#      netlify:
+#        captcha: false
+#      provider: netlify
     title: Contact
   design:
     columns: "2"
