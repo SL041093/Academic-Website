@@ -69,7 +69,7 @@ superuser: true
 title: Sukanya Lahkar
 ---
 
-I am a graduate student at the Industrial and Systems Engineering department of San Jose State University. I received my BE in Computer Science and Engineering and have five years of full-time professional experience working as a technology consultant. My interests lie in the continuously evolving and vibrant field of data analysis and management. I excel in organizing and executing plans to achieve project goals efficiently. This website of mine is forever a work in progress—kind of like my skillset! Life moves fast, new skills pop up out of nowhere, and keeping this updated feels like chasing a runaway train…but hey, I try!~
+I am a graduate student at the Industrial and Systems Engineering department of San Jose State University. I received my BE in Computer Science and Engineering and have five years of full-time professional experience working as a technology consultant. My interests lie in the continuously evolving and vibrant field of data analysis and management. I excel in organizing and executing plans to achieve project goals efficiently. This website of mine is forever a work in progress—kind of like my skillset! Life moves fast, new skills pop up out of nowhere, and keeping this website updated feels like chasing a runaway train…but hey! I try.
   
 {{<icon name = "download" pack ="fas">}} Download my {{<staticref "uploads/resume.pdf" "newtab">}} resume {{</staticref>}}.  
 {style="text-align: justify;"}
